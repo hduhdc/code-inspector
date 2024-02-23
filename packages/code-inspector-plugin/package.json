@@ -9,6 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc && vite build",
+    "dev": "tsc && vite build  --watch",
     "pub": "pnpm publish",
     "pub:beta": "pnpm publish --tag beta"
   },
